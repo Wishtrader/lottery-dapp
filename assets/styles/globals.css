@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .stats {
+    @apply bg-[#091F1C] text-white p-4 flex-1 rounded-md border-[#004337] border-2;
+  }
+
+    .stats-container {
+        @apply bg-[#091F1C] p-5 rounded-lg border-[#004337] flex-1;
+    }
+}
+
+:root {
+    --color-primary: #f00;
+    --color-secondary: #0f0;
+    --color-green: #004337;
+}
